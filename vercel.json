@@ -1,15 +1,14 @@
 {
   "version": 2,
   "functions": {
-    "api/[[...path]].js": {
-      "memory": 1024,
-      "maxDuration": 60
+    "api/**/*.js": {
+      "runtime": "@vercel/node"
     }
   },
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/api/$1"
+      "dest": "/api/proxy"
     }
   ]
 }
