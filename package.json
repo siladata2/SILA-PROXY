@@ -1,9 +1,14 @@
 {
-  "name": "sila-proxy",
+  "name": "sila-cloudflare-proxy",
   "version": "1.0.0",
   "private": true,
-  "type": "commonjs",
-  "engines": {
-    "node": "20.x"
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.68.0"
   }
 }
