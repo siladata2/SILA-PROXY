@@ -1,25 +1,11 @@
 {
   "name": "sila-proxy",
-  "version": "1.0.0",
-  "description": "SILA TECH Reverse Proxy For Vercel",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
-    "dev": "vercel dev",
-    "start": "vercel dev",
     "build": "echo Build Complete"
   },
-  "dependencies": {
-    "http-proxy": "^1.18.1"
-  },
   "engines": {
-    "node": ">=18"
-  },
-  "keywords": [
-    "proxy",
-    "vercel",
-    "api",
-    "silatech"
-  ],
-  "author": "SILA TECH",
-  "license": "MIT"
+    "node": "20.x"
+  }
 }
